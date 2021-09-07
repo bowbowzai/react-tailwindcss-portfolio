@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+    .animation-1 {
+        animation-iteration-count: 1
+    }
+    .h-2screen {
+        height: auto;
+    }
+    .scroll-smooth {
+        scroll-behavior: smooth;
+    }
+    .scroll-y-mandatory {
+        scroll-snap-type: y mandatory;
+    }
+    .scroll-snap-align-start {
+        scroll-snap-align: start;
+    }
+    .no-scroll-bar {
+        scrollbar-width: none;
+    }
+    .ms-scroll {
+        -ms-scroll-snap-type: y mandatory;
+    }
+    .border-50 {
+        border-radius: 50%;
+    }
+    .leading-20 {
+        line-height: 4rem;
+    }
+    .left-50 {
+        left: 50%;
+    }
+    .bg-about {
+        background: #ee0979;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ff6a00, #ee0979);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+}
