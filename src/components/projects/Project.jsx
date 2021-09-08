@@ -39,11 +39,11 @@ export default function Project() {
       img: 'images/sunnyside.jpg'
     },
     {
-      id: 'order',
-      title: 'Order Summary Page',
-      codeUrl: 'https://github.com/bowbowzai/html-css-order_summary',
-      liveSiteUrl: 'https://bowbowzai.github.io/html-css-order_summary/',
-      img: 'images/order.jpg'
+      id: 'easybank',
+      title: 'Easybank Landing Page',
+      codeUrl: 'https://github.com/bowbowzai/react-tailwindcss-easybank_landing_page',
+      liveSiteUrl: 'https://bowbowzai.github.io/react-tailwindcss-easybank_landing_page/',
+      img: 'images/easybank.jpg'
     },
   ]
 
